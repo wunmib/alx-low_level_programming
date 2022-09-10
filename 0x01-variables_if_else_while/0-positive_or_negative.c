@@ -6,7 +6,7 @@
 *Return: always return 0
 *function main - find the last digit of n
 */
-int main main (void)
+int main(void)
 {
 	int n;
 
