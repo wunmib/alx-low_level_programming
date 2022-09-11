@@ -1,28 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 /**
- ** Description: main print result to stdout.
- * Return: 0 successful.
+ * Description: main = print out a string to stdout.
+ * Return: 0 if successfull.
  */
 int main(void)
 {
-	int n;
-	int L;
-	char str[] = "Last digit of";
-       
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        L = n % 10;
+	char low;
 
-        if (L > 5)
-	        printf("%s %d is %d and is greater than 5\n", str, n, L);
-        else if (L == 0)
-	        printf("%s %d is %d and is 0\n", str, n, L);
-        else if (L < 6)
-	        printf("%s %d is %d and is less than 6 and not 0\n", str,n, L);
-
-        return (0);
+	for (low = 'a'; low <= 'z'; low++)
+	{
+		putchar(low);
+	}
+	printf("\n");
+	return (0);
 }
 
 
