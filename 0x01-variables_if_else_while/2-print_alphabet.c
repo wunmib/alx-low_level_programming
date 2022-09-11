@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-ggh	int n;
+	int n;
 	int L;
 	char str[] = "Last digit of";
        
@@ -22,4 +22,8 @@ ggh	int n;
         else if (L < 6)
 	        printf("%s %d is %d and ia less than 6 and not 0\n", str,n, L);
         return (0);
-}	
+}
+
+
+
+
