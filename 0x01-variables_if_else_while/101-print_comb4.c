@@ -8,19 +8,19 @@
  */
 int main(void)
 {
-	int i, j, k, 1;
+	int i, j, k, l;
 
 	for (i = 0; i < 1000; i++)
 	{
 		j = i / 100;
 		k = (i / 10) % 10;
-		1 = i % 10;
+		l = i % 10;
 
-		if (j < k && k < 1)
+		if (j < k && k < l)
 		{
 			putchar(j + '0');
 			putchar(k + '0');
-			putchar(1 + '0');
+			putchar(l + '0');
 
 			if (i < 700)
 			{
@@ -32,4 +32,5 @@ int main(void)
 	putchar('\n');
 
 	return (0);
+
 }
