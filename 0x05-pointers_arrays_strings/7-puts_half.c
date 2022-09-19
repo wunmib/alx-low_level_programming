@@ -32,7 +32,7 @@ void puts_half(char *str)
 	/* find the index to start depending on even/odd amount of strlen */
 	if (len % 2 != 0)
 		i = (len / 2) + 1;
-	else 
+	else
 		i = (len / 2);
 	while (i < len)
 	{
