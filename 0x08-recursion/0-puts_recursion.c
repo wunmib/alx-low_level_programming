@@ -15,8 +15,3 @@ void _puts_recursion(char *s)
 	else
 		_putchar('\n');
 }
-
-chmod u+x 0-puts_recursion.c
-git add .
-git commit -m ‘recursion’
-git push
